@@ -1,0 +1,13 @@
+﻿1)No interface defined. Hard to write Unit test
+2)Constructor: dependency injection violation - should pass SqlAgentStore and GoogleMapsDistanceCalculator as parameters rather than initialize them from constructor
+3) CalculateAirlinePrices
+       - _dataStore.GetItinaryAsync(itineraryId).Result block the thread. it will cause deadlock.
+	    should use await and change return type to 
+	   - List<Quote> is not thread safe. change it to Use ConcurrentBag
+4)CalculateTotalTravelDistanceAsync
+       - _distanceCalculator.GetDistanceAsync(itinerary.Waypoints[i],
+                 itinerary.Waypoints[i + 1]).Result; block current thread causing deadlock
+				 use await instead 
+5) FindAgent
+        - has noting to do with ItineraryManager. It should bring to Agent class
+		- FindAgent does two thing in one method. It should split into two: FindAgent and UpdateAgentPhoneNumber

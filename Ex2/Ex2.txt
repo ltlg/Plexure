@@ -1,0 +1,5 @@
+1.	Index on the coupon IsActive flag column to get active coupon. 
+2.	Partition on table CouponRedemptions based on the date. 
+3.	Archiving the historical data of CouponRedemption. 
+4.	Create views which are easier to query, such as to check whether a user can redeem a coupon, it need to check whether the coupon is active or not, has the user has the coupon, has the user exceeds the max number allowed.  Create a view across multiple table to cater the requirement rather than query across multiple tables. It should be relevant easier and faster than query across all the tables. 
+5.	Create a separate table for reporting purpose. The report schema should be fixed. Populate the report table daily/hourly based on the schema. When report is requested, it will only run against reporting table rather than the big table CouponRedemptions to offload the work from the big table. 

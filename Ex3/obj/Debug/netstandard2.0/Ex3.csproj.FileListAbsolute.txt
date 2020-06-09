@@ -1,0 +1,9 @@
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\bin\Debug\netstandard2.0\Ex3.deps.json
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\bin\Debug\netstandard2.0\Ex3.dll
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\bin\Debug\netstandard2.0\Ex3.pdb
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\obj\Debug\netstandard2.0\Ex3.csprojAssemblyReference.cache
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\obj\Debug\netstandard2.0\Ex3.csproj.CoreCompileInputs.cache
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\obj\Debug\netstandard2.0\Ex3.AssemblyInfoInputs.cache
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\obj\Debug\netstandard2.0\Ex3.AssemblyInfo.cs
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\obj\Debug\netstandard2.0\Ex3.dll
+c:\users\administrator\source\repos\ConsoleApp1\Ex3\obj\Debug\netstandard2.0\Ex3.pdb
